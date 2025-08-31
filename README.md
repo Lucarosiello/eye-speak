@@ -2,6 +2,12 @@
 
 Gaze-controlled on-screen keyboard with LLM-powered sentence suggestions and text-to-speech.
 
+### Demo
+
+Watch a quick demo of Eye Speak in action:
+
+[▶️ Watch the demo on Loom](https://www.loom.com/share/4e7e0c610fa3414289f5fc3b04dea56c?sid=dc1db2d7-9d7f-4035-a6fc-bb3dbfbd126d)
+
 ### Architecture Overview
 
 ![Eye Speak Architecture Diagram](./assets/diagram2.png)
