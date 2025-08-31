@@ -1,0 +1,17 @@
+{
+  "name": "eye-speak",
+  "version": "0.2.0",
+  "description": "Gaze-controlled keyboard with LLM suggestions and TTS",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.55.0"
+  }
+}
+
