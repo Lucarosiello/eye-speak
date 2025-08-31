@@ -14,8 +14,8 @@ const __dirname = path.dirname(__filename);
 const app = express();
 app.use(express.json());
 
-// Serve static frontend
-app.use(express.static(__dirname));
+// Serve static frontend from public/
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Health
 app.get('/api/health', (_req, res) => {

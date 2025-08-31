@@ -16,9 +16,9 @@ Prerequisites: Node.js 18+ and npm
 ```bash
 npm install
 
-# Create .env (or config/.env) with your keys
-echo "OPENAI_API_KEY=sk-..." >> .env
-echo "ELEVENLABS_API_KEY=..." >> .env
+# Copy env example and set your keys
+cp config/.env.example .env
+# then edit .env and fill values for the keys below
 
 # Run the server
 npm start
@@ -61,16 +61,20 @@ Base URL: `http://localhost:3000`
 
 ```
 eye-speak/
-├─ index.html          # Frontend entry (loads WebGazer and app.js)
-├─ app.js              # Gaze keyboard logic and UI
-├─ style.css           # Styles
-├─ server.js           # Express server + API routes
+├─ public/
+│  ├─ index.html       # Frontend entry (loads WebGazer and app.js)
+│  ├─ app.js           # Gaze keyboard logic and UI
+│  └─ style.css        # Styles
 ├─ llm/
 │  └─ suggest.js       # OpenAI-backed sentence suggestions
 ├─ tts/
 │  └─ elevenlabs.js    # ElevenLabs TTS client
+├─ server.js           # Express server + API routes
+├─ config/
+│  └─ .env.example     # Sample env file (copy to .env)
 ├─ package.json
-└─ README.md
+├─ README.md
+└─ LICENSE
 ```
 
 ### Development notes

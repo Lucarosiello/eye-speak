@@ -710,3 +710,5 @@ class GazeKeyboard {
 window.addEventListener('load', () => {
     new GazeKeyboard();
 });
+
+
