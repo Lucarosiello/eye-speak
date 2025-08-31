@@ -4,7 +4,7 @@ Gaze-controlled on-screen keyboard with LLM-powered sentence suggestions and tex
 
 ### Architecture Overview
 
-![Eye Speak Architecture Diagram](assets/architecture.svg)
+![Eye Speak Architecture Diagram](./assets/architecture.svg)
 _System architecture diagram showing the interaction between components_
 
 ### Features
