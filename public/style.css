@@ -161,8 +161,10 @@ body {
     display: none !important;
 }
 
-#webgazerFaceOverlay {
-    display: none !important;
+/* Ensure the gaze dot is visible above UI */
+#webgazerGazeDot {
+    z-index: 3000 !important;
+    pointer-events: none !important;
 }
 
 /* Calibration dots */
