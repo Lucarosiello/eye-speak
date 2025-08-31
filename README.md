@@ -4,7 +4,7 @@ Gaze-controlled on-screen keyboard with LLM-powered sentence suggestions and tex
 
 ### Architecture Overview
 
-![Eye Speak Architecture Diagram](./diagram2.png)
+![Eye Speak Architecture Diagram](./assets/diagram2.png)
 _System architecture diagram showing the interaction between components_
 
 ### Features
@@ -66,7 +66,8 @@ Base URL: `http://localhost:3000`
 
 ```
 eye-speak/
-├─ diagram2.png         # System architecture diagram
+├─ assets/
+│  └─ diagram2.png      # System architecture diagram
 ├─ public/
 │  ├─ index.html       # Frontend entry (loads WebGazer and app.js)
 │  ├─ app.js           # Gaze keyboard logic and UI
