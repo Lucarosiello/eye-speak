@@ -2,6 +2,11 @@
 
 Gaze-controlled on-screen keyboard with LLM-powered sentence suggestions and text-to-speech.
 
+### Architecture Overview
+
+![Eye Speak Architecture Diagram](assets/architecture.svg)
+_System architecture diagram showing the interaction between components_
+
 ### Features
 
 - Eye tracking in the browser via WebGazer
@@ -61,6 +66,8 @@ Base URL: `http://localhost:3000`
 
 ```
 eye-speak/
+├─ assets/
+│  └─ architecture.svg    # System architecture diagram
 ├─ public/
 │  ├─ index.html       # Frontend entry (loads WebGazer and app.js)
 │  ├─ app.js           # Gaze keyboard logic and UI
